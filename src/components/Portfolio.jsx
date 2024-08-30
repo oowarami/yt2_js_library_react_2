@@ -8,7 +8,7 @@ import image5 from '../assets/images/portfolio/unsplash_9IcKPSQ9G5Q.png';
 const Portfolio = () => {
 	return (
 		<>
-			<section className='bg-secondary py-20 font-poppins'>
+			<section id='portfolio' className='bg-secondary py-20 font-poppins'>
 				<div className=' mx-auto text-center'>
 					<h2 className='text-2xl'>Our Regurlar Updated</h2>
 					{/* Portfolio Heading */}

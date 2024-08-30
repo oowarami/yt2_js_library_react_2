@@ -9,7 +9,7 @@ import vector3 from '../assets/images/contact/Vector-3.svg';
 const Contact = () => {
 	return (
 		<>
-			<section className='bg-secondary py-15 font-poppins'>
+			<section id='contact' className='bg-secondary py-15 font-poppins'>
 			{/* image */}
 			<div className='flex justify-center items-center'>
 				<img src={ornament}/>

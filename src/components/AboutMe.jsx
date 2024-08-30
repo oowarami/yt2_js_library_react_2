@@ -6,7 +6,7 @@ import aboutImage from '../assets/images/about/image-model.png'
 const AboutMe = () => {
   return (
 		<>
-    	<section className="bg-secondary py-20 font-poppins">
+    	<section id='about' className="bg-secondary py-20 font-poppins">
       <div className=" mx-auto text-center">
         {/* About Me Heading */}
         <h2 className="text-4xl font-bold text-black mb-4">

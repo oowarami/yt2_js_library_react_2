@@ -6,7 +6,7 @@ import wpdeveloping from  '../assets/images/services/wpdeveloping.svg'
 const Services = () => {
 	return (
 		<>
-			<section className='bg-secondary py-20 font-poppins'>
+			<section id='services' className='bg-secondary py-20 font-poppins'>
 				<div className=" mx-auto text-center">
 					{/* Services Heading */}
 					<h2 className="text-4xl font-bold text-black mb-4">
