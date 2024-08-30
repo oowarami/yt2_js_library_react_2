@@ -5,7 +5,8 @@ import aboutImage from '../assets/images/about/image-model.png'
 
 const AboutMe = () => {
   return (
-    <section className="bg-secondary py-20 font-poppins">
+		<>
+    	<section className="bg-secondary py-20 font-poppins">
       <div className=" mx-auto text-center">
         {/* About Me Heading */}
         <h2 className="text-4xl font-bold text-black mb-4">
@@ -24,7 +25,7 @@ const AboutMe = () => {
         </div>
         {/* Main Image */}
         <div className="relative z-10">
-          <div className="relative bg-abstractImage">
+          <div className="relative bg-contain bg-center">
 
 					{/* <img
               src={abstractImage}
@@ -52,7 +53,8 @@ const AboutMe = () => {
           </svg>
         </div>
       </div>
-    </section>
+    	</section>
+		</>
   );
 }
 
